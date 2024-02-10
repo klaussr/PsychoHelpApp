@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  tomcat:
+    image: tomcat:9.0
+    ports:
+    - "8080:8080"
+    volumes:
+     - ./target/PsychoHelpApp-1.0-SNAPSHOT.war:/usr/local/tomcat/webapps/PsychoHelpApp-1.0-SNAPSHOT.war
+    restart: on-failure
+
+
