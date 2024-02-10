@@ -74,7 +74,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PhraseTest">
+  <component name="RunManager" selected="Docker.src: Compose Deployment">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.semkin.App" />
       <module name="PsychoHelpApp" />
@@ -151,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.src: Compose Deployment" />
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.PhraseTest" />
         <item itemvalue="JUnit.PhraseTest.doGet" />
         <item itemvalue="JUnit.PhraseTest.doPost" />
-        <item itemvalue="Docker.src: Compose Deployment" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>

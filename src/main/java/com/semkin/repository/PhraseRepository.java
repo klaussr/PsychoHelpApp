@@ -7,12 +7,11 @@ import java.util.concurrent.ConcurrentHashMap;
 public class PhraseRepository {
     public Map<UUID, String> phrases = new ConcurrentHashMap<>();
 
-    public Map<UUID, String> fillHashMap() {
+    public void fillHashMap() {
         phrases.put(UUID.randomUUID(), "У тебя все получится");
         phrases.put(UUID.randomUUID(), "Ты классный");
         phrases.put(UUID.randomUUID(), "Все преодолеешь");
         phrases.put(UUID.randomUUID(), "Все временно");
-        return phrases;
     }
 
     public String getRandomPhrase() throws InterruptedException {
